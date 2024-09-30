@@ -4,7 +4,9 @@ body {
   width: 100vw;
   margin: 0;
 }
-
+#container {
+  text-align: center;
+}
 #app {
   height: 100%;
   display: flex;
@@ -19,16 +21,18 @@ body {
 }
 
 #navbar {
+  color: blanchedalmond;
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
   background-color: #222222;
-  color: white;
+
   display: flex;
   align-items: center;
 }
 
 #navbar div {
+  color: blanchedalmond;
   padding: 5px;
 }
 
@@ -73,4 +77,15 @@ body {
 }
 .white {
   background-color: #ffffff;
+}
+
+.yellowblack {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: all 1s ease;
+
+  background-color: #ffc153;
+  border: 2px solid black;
 }
